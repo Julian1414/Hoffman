@@ -2,10 +2,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+	overflow-x: hidden;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+
 }
 
 p {
@@ -14,6 +18,10 @@ p {
 
 header {
     color: white;
+}
+
+h2 {
+	font-size: 44px;
 }
 
 .bg-slider {
@@ -116,7 +124,7 @@ header {
 }
 
 .tittle-stat {
-    margin-top: 26px;
+    margin-top: 3%;
 }
 
 .stuning_results {
@@ -169,7 +177,7 @@ header {
 .tittle-review {
     color: white;
     text-align: center;
-    margin-top: 88px;
+    margin-top: 10%;
 }
 
 .tittle-img {
@@ -178,7 +186,7 @@ header {
     margin-top: 20px;
 }
 
-.ar-left {
+/*.ar-left {
     display: block;
     padding-left: 10px;
     padding-top: 95px;
@@ -189,13 +197,30 @@ header {
     padding-right: 10px;
     padding-top: 95px;
     padding-left: 77px;
+}*/
+
+.arrow {
+	width: 65px;
+	height: 65px;
 }
+
+.arrow-right {
+	background: url(../img/ar-right.png);
+	background-size: contain;
+}
+
+.arrow-left {
+	background: url(../img/ar-left.png);
+	background-size: contain;
+
+}
+
 
 .review-text {
     font-size: 24px;
     line-height: 36px;
-    padding-left: 10px;
-    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .card-review__img {
@@ -368,6 +393,7 @@ header {
 	margin-top: 174px;
 	  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 	  color: white;
+	  position: relative;
 	
 }
 
@@ -703,6 +729,233 @@ hr {
 	margin-left: 32px;
 }
 
+.wcas {
+	display: flex;
+    margin-top: 70px;
+	justify-content: space-between;
+
+}
+
+.wps-tittle-tablet {
+	display: none;
+}
+
 @media (max-width: 768px) {
+	body, p {
+		font-size: 11px;
+	}
+
+
+	.menu, .icon-search, .button-lg, .resp-ui {
+		display: none;
+	}
+
+	.bg-slider {
+		height: 410px;
+		/*width: 768px;*/
+	}
+
+	.iphone {
+		height: 337px;
+		margin-top: 68px;
+
+	}
+
+	.slider-text__tittle {
+		font-size: 36px;
+	}
+
+	.slider-text__offer {
+		font-size: 12px;
+	}
+
+	.mobile__item {
+		width: 72px;
+		height: 21px;
+	}
+
+	.mobile {
+		 padding-top: 36px;
+		 padding-left: 0px;
+	}
+
+	h2 {
+		font-size: 32px;
+	}
+
+	.slider-text {
+		padding-left: 0px;
+	}
+
+	.percentage__img {
+		width: 101px;
+		height: 101px;
+		padding-top: 35px;
+
+	}
+
+	.percentage__num {
+    font-size: 32px;
+
+}
+
+.percentage__tittle {
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.percentage__text {
+	margin-top: 15px;
+}
+
+.stuning_results {
+    margin-top: 33px;
+}
+
+.bg-3 {
+	height: 330px;
+	width: 768px;
+}
+
+.review-text {
+    font-size: 12px;
+    color: white;
+    margin, padding: 0;
+    line-height: 18px;
+}
+
+.ar-left {
+	width: 40px;
+	height: 40px;
+	padding-top: 0pc;
+}
+
+.tittle-img {
+	height: 15px;
+	width: 25px;
+}
+
+.arrow {
+	width: 40px;
+	height: 40px;
+}
+
+.wcas {
+	margin-top: 40px;
+	max-width: 100%;
+}
+
+.review-text {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.card-review__mail {
+	font-size: 12px;
+}
+
+.card-review__img {
+	width: 48px;
+	height: 48px;
+}
+
+.card-review {
+	margin-top: 20px;
+}
+
+.tittle-review {
+	margin-top: 40px;
+}
+.products__img {
+	width: 140px;
+	height: 140px;
+	margin-left: -20px;
+}
+.products__tittle {
+	font-size: 12px;
+}
+
+.container {
+	width: 750px;
+}
+.products__button {
+	width: 120px;
+}
+
+
+
+.products__button {
+	margin-top: 0px;
+	margin-left: -8px;
+}
+
+
+
+.products__name {
+	display: block;
+	height: 85px;
+}
+
+.bg-5 {
+	height: 440px;
+	width: 767px;
+}
+
+.cta-ofer {
+	font-size: 11px;
+}
+
+.form {
+	width: 220px;
+	height: 36px;
+}
+.button-reg {
+	width: 220px;
+	height: 40px;
+	font-size: 11px;
+	margin-top: 44px;
+}
+
+.form-input {
+	margin-left: -35px;
+	margin-top: 0px;
+}
+
+.wps-tittle {
+	display: none;
+}
+.wps-tittle-tablet {
+	display: block;
+	margin-top: 44px;
+}
+.wps-text-b {
+	font-size: 18px;
+}
+.wps-left, .wps-right {
+	width: 316px;
+	height: 280px;
+	margin-top: 31px;
+}
+.wps-img {
+	width: 80px;
+	height: 80px;
+	right: 48px;
+	bottom: -40px;
+}
+
+.wps-left {
+	margin-left: -70px;
+}
+.wps-text {
+	padding-right: 47px;
+	padding-left: 47px;
+	margin-top: 40px;
+}
+
+.wps-dotes__item {
+	width: 8px;
+	height: 8px;
+}
+
+
 
 }
